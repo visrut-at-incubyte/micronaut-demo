@@ -1,9 +1,7 @@
 package com.football;
 
-import io.micronaut.context.annotation.Factory;
 import io.micronaut.context.annotation.Value;
 
-@Factory
 public class Math {
     @Value("${football.teamName}")
     String teamName;
