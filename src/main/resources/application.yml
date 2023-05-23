@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: footballStream
+netty:
+  default:
+    allocator:
+      max-order: 3
+football:
+  teamName: messi
+  teamSize: 12
